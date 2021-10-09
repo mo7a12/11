@@ -1,0 +1,152 @@
+/* main rules */ 
+body
+{
+	
+}
+
+.container
+{
+	width: 1170px;
+	margin: auto;
+	
+	
+}
+/* header */ 
+.header .silder {
+	height:1100px ;
+	background-color: aliceblue;
+
+}
+.header .silder img
+{
+	height: 1000px;
+	width: 100%;
+
+	
+	padding-bottom: 20px;
+	
+}
+.header .silder img:hover{
+	transform: rotate(45deg) scale(.5,.5) translate(30px ,300px)
+	skew(20deg,20deg);
+	transition:all 2s ease-in-out;
+}
+.header .nappar
+{
+	
+	
+	background-color: #07422a;
+	color:black;
+	overflow: hidden;
+
+}
+.header .nappar h2
+{
+	float: left; text-transform:uppercase;
+	
+}
+.header .nappar h2 span{ color: green}
+.header .nappar ul {
+	list-style: none;
+	padding-left: 10px;
+	
+	float: right;
+	
+}
+.header .nappar ul li {
+	float: left;
+	
+}
+/* end head */
+/* about me */
+.aboutme {
+	background-color: #15955f;
+}
+
+.aboutme .container h1 {
+	color: #281f6c;
+
+}
+.aboutme .container table tr
+{
+text-align: center;
+
+	font-size: 60px;
+	
+}
+/* skill*/
+.skill 
+{
+		background-color: #1e9978;
+}
+.skill .container ul {
+	font-size: 40px;
+	list-style:none;
+
+	padding: 15px ;
+	margin: 15px;
+	text-align: center;
+}
+.skill .container ul h2 mark
+{
+color :#020202;
+	background-color: #24e2af
+}
+/*  end skill*/
+/* start features */ 
+.feature {
+	overflow: hidden;
+	
+	background-color: #116844;
+}
+.feature .feat table {
+
+	width: 80%;
+	height: 150px;
+float: left
+	
+	
+}
+.feature .feat table tr
+{
+	font-size: 20px;
+	
+	
+	padding: 10px;
+
+}
+/* contact*/
+.conect {
+	background-color: #142f23;
+padding: 5px;
+	margin: auto;
+}
+.conect .infome
+{
+	float: left;
+	width: 50%;
+}
+.conect .infome h2{
+	font-size: 30px;
+color: #128454;
+}
+.conect .infome h3 
+{
+	font-size: 25px;
+}
+.conect .info lable
+{
+font-size: 20px;
+	
+}
+/* end contact */
+/*footer */
+.footer {
+	background-color: #17372a;
+	
+}
+.footer h2{
+	text-align: center;
+	font-size: 30px;
+}
+/* end footer */
